@@ -1,5 +1,5 @@
-# ros-panorama-package
-This package is a set of ROS nodes that allows the creation of a panorama image based on 3 cameras.
+# ROS-panorama-package
+This package is a set of ROS nodes that allows the creation of a panorama image based on 3 cameras and is a alternative for  [this package](https://github.com/rubendfcosta/AtlasCar2PanoramicDetection/tree/master/Panoramic-Image-Python).
 
 ### Prerequisites
 
@@ -8,18 +8,16 @@ What things that are needed:
 * [ROS-melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) - The ROS version used.
 
 Hardware:
-* [Jetson Agx Xavier](https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit) - Board
-* [e-CAM130_CUXVR - Multiple Camera Board for NVIDIA® Jetson AGX Xavier™](https://www.e-consystems.com/nvidia-cameras/jetson-agx-xavier-cameras/four-synchronized-4k-cameras.asp) - Cameras board
+* [3 USB Cameras](https://www.logitech.com/pt-br/product/hd-webcam-c270) - Log
 
 
-### Project Guide
+### Usage Instructions
 
-After all the prerequisites are installed, the first step is to calibrate the cameras in order to get the intrinsics parameters. This was based in this [Tutorial](http://wiki.ros.org/camera_calibration).
+After all the prerequisites are installed, you have to connect the 3 USB cameras to your computer and edit the **camera_panoramic.launch** file and set yours devices ID's. 
 
 To launch the entire system run:
-
 ```
-roslaunch data_matrix_detection bringup.launch
+roslaunch panorama_imageCPP camera_panoramic.launch
 ```
 
 
