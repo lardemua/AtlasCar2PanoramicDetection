@@ -1,5 +1,5 @@
 # ROS-panorama-package
-This package is a set of ROS nodes that allows the creation of a panorama image based on 3 cameras and is a alternative for  [this package](https://github.com/rubendfcosta/AtlasCar2PanoramicDetection/tree/master/Panoramic-Image-Python).
+This package is a set of ROS nodes that allows the creation of a panorama image based on 3 cameras and is a alternative to  [this package](https://github.com/rubendfcosta/AtlasCar2PanoramicDetection/tree/master/Panoramic-Image-Python).
 
 ### Prerequisites
 
