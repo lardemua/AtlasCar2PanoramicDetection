@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="panorama_creation" type="panorama-image.py" name="panorama_creation_node" output="screen"/>
+</launch>

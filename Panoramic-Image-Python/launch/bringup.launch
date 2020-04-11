@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find panorama_creation)/launch/cameras.launch"/>
+    <include file="$(find panorama_creation)/launch/panorama.launch"/>
+    <node pkg="rqt_gui" type="rqt_gui" name="rqt_gui"/>
+</launch>
