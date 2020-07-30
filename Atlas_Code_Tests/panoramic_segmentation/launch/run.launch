@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find panoramic_segmentation)/launch/cameras.launch"/>
+    <include file="$(find panoramic_segmentation)/launch/panorama.launch"/>
+    <node pkg="rqt_gui" type="rqt_gui" name="rqt_gui"/>
+
+</launch>

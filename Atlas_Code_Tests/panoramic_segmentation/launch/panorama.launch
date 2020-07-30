@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="panoramic_segmentation" type="panorama-image.py" name="panorama" output="screen"/>
+</launch>
